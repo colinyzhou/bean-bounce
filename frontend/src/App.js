@@ -1,10 +1,18 @@
-import React from 'react'
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import { Container } from "react-bootstrap"
 
 const App = () => {
   return (
-    <div>
-      Welcome to Bean Bounce!
-    </div>
+    <>
+      <Header />
+      <main>
+        <Container>
+          <h1>Welcome to Bean Bounce!</h1>
+        </Container>
+      </main>
+      <Footer />
+    </>
   )
 }
 
