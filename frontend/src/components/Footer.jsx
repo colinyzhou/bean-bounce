@@ -4,7 +4,7 @@ const Footer = () => {
     const currentYear = new Date().getFullYear()
 
   return (
-<footer style={{ backgroundColor: '#4A2B1D', color: '#FFF', fontFamily: 'cursive' }}>
+<footer style={{ position: "fixed", bottom: 0, backgroundColor: '#4A2B1D', color: '#FFF', fontFamily: 'cursive', width: "100%",maxHeight: "60px"}}>
       <Container>
         <Row>
           <Col className="text-center py-3">

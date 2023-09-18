@@ -1,0 +1,58 @@
+.main {
+  min-height: 80vh;
+  background-color: #2b2b2b; /* 深灰色背景 */
+  color: #fff; /* 白色文本 */
+}
+
+.rating svg {
+  color: #009688; /* 绿色图标 */
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  color: #666; /* 深灰色文本 */
+}
+
+.product-title {
+  height: 2.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #333; /* 深灰色文本 */
+}
+
+table td,
+table th {
+  text-align: center;
+  background-color: #f4f4f4; /* 浅灰色表格背景 */
+}
+
+.review {
+  margin-top: 30px;
+}
+
+.review h2 {
+  font-size: 24px;
+  background: #333; /* 深灰色背景 */
+  color: #fff; /* 白色文本 */
+  padding: 10px;
+  border: 1px solid #666; /* 深灰色边框 */
+}
+
+.review button {
+  margin-top: 10px;
+  background-color: #009688; /* 绿色按钮背景 */
+  color: #fff; /* 白色文本 */
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* 半透明背景 */
+  color: #fff; /* 白色文本 */
+}
