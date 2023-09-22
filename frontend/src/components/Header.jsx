@@ -13,8 +13,8 @@ const Header = () => {
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>
-              <img src={logo} alt="Bean Bounce" />
-              Bean Bounce</Navbar.Brand>
+              <img src={logo} alt="Proshop" />
+              Proshop</Navbar.Brand>
           </LinkContainer>
 
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
